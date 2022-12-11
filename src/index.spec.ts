@@ -14,7 +14,7 @@ describe('typeScript test suite', () => {
   });
 
   it('should return successs code', async () => {
-    const req = await request(app).get('/api/v1/sysinfo');
+    const req = await request(app).get('/api/v1/systeminfo');
     expect(req.statusCode).toBe(200);
   });
 
